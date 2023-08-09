@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(117, 116, 115);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+h1{ 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+.header{
+    background-color: rgb(181, 189, 186);
+    height: auto;
+    
+}
+.logo
+{
+    color: black;
+    margin: 0px;
+    padding: 10px;
+
+}
+.cart
+{   background-color: rgb(13, 13, 19);
+    color: white;
+    margin: 0px;
+    padding: 2px;
+    height: 200px;
+    text-align: center;
+}
+.navbar 
+{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.row
+{
+    display: flex;
+    flex-direction: column;
+
+}
+#main
+{
+    display: flex;
+    flex-direction: row;
+}
+.card
+{
+    background-color: rgb(243, 245, 243);
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btn
+{
+
+   display: flex;
+   justify-content: space-evenly;
+
+}
